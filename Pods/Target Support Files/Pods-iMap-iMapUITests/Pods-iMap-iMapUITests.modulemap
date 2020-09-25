@@ -1,6 +1,0 @@
-framework module Pods_iMap_iMapUITests {
-  umbrella header "Pods-iMap-iMapUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module Pods_iFitActivity {
+  umbrella header "Pods-iFitActivity-umbrella.h"
+
+  export *
+  module * { export * }
+}

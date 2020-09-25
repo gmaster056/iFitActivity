@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260FD278064A4A3ACE2BC336 /* Pods_iFitActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE849CECE14012AEB4AE8D0 /* Pods_iFitActivity.framework */; };
+		2C1302D9BCD45C20D28B3075 /* Pods_iFitActivity_iFitActivityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D294C97654499D400CA15CD /* Pods_iFitActivity_iFitActivityUITests.framework */; };
+		CDF3D04F2E89ECC2FC2F29BA /* Pods_iFitActivityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0F4318321E265CE5B9262C /* Pods_iFitActivityTests.framework */; };
+		ED6277A1251E77E60040872F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6277A0251E77E60040872F /* AppDelegate.swift */; };
+		ED6277A3251E77E60040872F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6277A2251E77E60040872F /* SceneDelegate.swift */; };
+		ED6277A5251E77E60040872F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6277A4251E77E60040872F /* ViewController.swift */; };
+		ED6277A8251E77E60040872F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6277A6251E77E60040872F /* Main.storyboard */; };
+		ED6277AA251E77E80040872F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6277A9251E77E80040872F /* Assets.xcassets */; };
+		ED6277AD251E77E80040872F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6277AB251E77E80040872F /* LaunchScreen.storyboard */; };
+		ED6277B8251E77E80040872F /* iFitActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6277B7251E77E80040872F /* iFitActivityTests.swift */; };
+		ED6277C3251E77E80040872F /* iFitActivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6277C2251E77E80040872F /* iFitActivityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6277B4251E77E80040872F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED627795251E77E60040872F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED62779C251E77E60040872F;
+			remoteInfo = iFitActivity;
+		};
+		ED6277BF251E77E80040872F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED627795251E77E60040872F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED62779C251E77E60040872F;
+			remoteInfo = iFitActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065CBB86DA08961F064E4D18 /* Pods-iFitActivityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFitActivityTests.release.xcconfig"; path = "Target Support Files/Pods-iFitActivityTests/Pods-iFitActivityTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F1CECFBBFC84745DDA7BE8B /* Pods-iFitActivityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFitActivityTests.debug.xcconfig"; path = "Target Support Files/Pods-iFitActivityTests/Pods-iFitActivityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D294C97654499D400CA15CD /* Pods_iFitActivity_iFitActivityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFitActivity_iFitActivityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DFB748018AAF57DCBE9902 /* Pods-iFitActivity-iFitActivityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFitActivity-iFitActivityUITests.release.xcconfig"; path = "Target Support Files/Pods-iFitActivity-iFitActivityUITests/Pods-iFitActivity-iFitActivityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7FE849CECE14012AEB4AE8D0 /* Pods_iFitActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFitActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5FD590B2B7497DE33E510A /* Pods-iFitActivity-iFitActivityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFitActivity-iFitActivityUITests.debug.xcconfig"; path = "Target Support Files/Pods-iFitActivity-iFitActivityUITests/Pods-iFitActivity-iFitActivityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B53C6F6C81CD6C5B57ACDA2 /* Pods-iFitActivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFitActivity.debug.xcconfig"; path = "Target Support Files/Pods-iFitActivity/Pods-iFitActivity.debug.xcconfig"; sourceTree = "<group>"; };
+		C3389192C2033556A7A658E4 /* Pods-iFitActivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFitActivity.release.xcconfig"; path = "Target Support Files/Pods-iFitActivity/Pods-iFitActivity.release.xcconfig"; sourceTree = "<group>"; };
+		CA0F4318321E265CE5B9262C /* Pods_iFitActivityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFitActivityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED62779D251E77E60040872F /* iFitActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFitActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6277A0251E77E60040872F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6277A2251E77E60040872F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED6277A4251E77E60040872F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6277A7251E77E60040872F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6277A9251E77E80040872F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6277AC251E77E80040872F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6277AE251E77E80040872F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6277B3251E77E80040872F /* iFitActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFitActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6277B7251E77E80040872F /* iFitActivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFitActivityTests.swift; sourceTree = "<group>"; };
+		ED6277B9251E77E80040872F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6277BE251E77E80040872F /* iFitActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFitActivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6277C2251E77E80040872F /* iFitActivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFitActivityUITests.swift; sourceTree = "<group>"; };
+		ED6277C4251E77E80040872F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED62779A251E77E60040872F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260FD278064A4A3ACE2BC336 /* Pods_iFitActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6277B0251E77E80040872F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF3D04F2E89ECC2FC2F29BA /* Pods_iFitActivityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6277BB251E77E80040872F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1302D9BCD45C20D28B3075 /* Pods_iFitActivity_iFitActivityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3226AA6B5AD830558E75AE97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B53C6F6C81CD6C5B57ACDA2 /* Pods-iFitActivity.debug.xcconfig */,
+				C3389192C2033556A7A658E4 /* Pods-iFitActivity.release.xcconfig */,
+				8B5FD590B2B7497DE33E510A /* Pods-iFitActivity-iFitActivityUITests.debug.xcconfig */,
+				47DFB748018AAF57DCBE9902 /* Pods-iFitActivity-iFitActivityUITests.release.xcconfig */,
+				0F1CECFBBFC84745DDA7BE8B /* Pods-iFitActivityTests.debug.xcconfig */,
+				065CBB86DA08961F064E4D18 /* Pods-iFitActivityTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB1962E7105F5CB6A0AD06B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FE849CECE14012AEB4AE8D0 /* Pods_iFitActivity.framework */,
+				1D294C97654499D400CA15CD /* Pods_iFitActivity_iFitActivityUITests.framework */,
+				CA0F4318321E265CE5B9262C /* Pods_iFitActivityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED627794251E77E60040872F = {
+			isa = PBXGroup;
+			children = (
+				ED62779F251E77E60040872F /* iFitActivity */,
+				ED6277B6251E77E80040872F /* iFitActivityTests */,
+				ED6277C1251E77E80040872F /* iFitActivityUITests */,
+				ED62779E251E77E60040872F /* Products */,
+				3226AA6B5AD830558E75AE97 /* Pods */,
+				EB1962E7105F5CB6A0AD06B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED62779E251E77E60040872F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED62779D251E77E60040872F /* iFitActivity.app */,
+				ED6277B3251E77E80040872F /* iFitActivityTests.xctest */,
+				ED6277BE251E77E80040872F /* iFitActivityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED62779F251E77E60040872F /* iFitActivity */ = {
+			isa = PBXGroup;
+			children = (
+				ED6277A0251E77E60040872F /* AppDelegate.swift */,
+				ED6277A2251E77E60040872F /* SceneDelegate.swift */,
+				ED6277A4251E77E60040872F /* ViewController.swift */,
+				ED6277A6251E77E60040872F /* Main.storyboard */,
+				ED6277A9251E77E80040872F /* Assets.xcassets */,
+				ED6277AB251E77E80040872F /* LaunchScreen.storyboard */,
+				ED6277AE251E77E80040872F /* Info.plist */,
+			);
+			path = iFitActivity;
+			sourceTree = "<group>";
+		};
+		ED6277B6251E77E80040872F /* iFitActivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6277B7251E77E80040872F /* iFitActivityTests.swift */,
+				ED6277B9251E77E80040872F /* Info.plist */,
+			);
+			path = iFitActivityTests;
+			sourceTree = "<group>";
+		};
+		ED6277C1251E77E80040872F /* iFitActivityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6277C2251E77E80040872F /* iFitActivityUITests.swift */,
+				ED6277C4251E77E80040872F /* Info.plist */,
+			);
+			path = iFitActivityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED62779C251E77E60040872F /* iFitActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6277C7251E77E80040872F /* Build configuration list for PBXNativeTarget "iFitActivity" */;
+			buildPhases = (
+				82C895F66E68B65D058D914E /* [CP] Check Pods Manifest.lock */,
+				ED627799251E77E60040872F /* Sources */,
+				ED62779A251E77E60040872F /* Frameworks */,
+				ED62779B251E77E60040872F /* Resources */,
+				032A182DF40BA4E2ECFEE283 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFitActivity;
+			productName = iFitActivity;
+			productReference = ED62779D251E77E60040872F /* iFitActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6277B2251E77E80040872F /* iFitActivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6277CA251E77E80040872F /* Build configuration list for PBXNativeTarget "iFitActivityTests" */;
+			buildPhases = (
+				71C4BD9CAE85E9328B7971F0 /* [CP] Check Pods Manifest.lock */,
+				ED6277AF251E77E80040872F /* Sources */,
+				ED6277B0251E77E80040872F /* Frameworks */,
+				ED6277B1251E77E80040872F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6277B5251E77E80040872F /* PBXTargetDependency */,
+			);
+			name = iFitActivityTests;
+			productName = iFitActivityTests;
+			productReference = ED6277B3251E77E80040872F /* iFitActivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6277BD251E77E80040872F /* iFitActivityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6277CD251E77E80040872F /* Build configuration list for PBXNativeTarget "iFitActivityUITests" */;
+			buildPhases = (
+				35202BBB867106EE8869F7D3 /* [CP] Check Pods Manifest.lock */,
+				ED6277BA251E77E80040872F /* Sources */,
+				ED6277BB251E77E80040872F /* Frameworks */,
+				ED6277BC251E77E80040872F /* Resources */,
+				2AA7AA415FECF1DD740C1A43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6277C0251E77E80040872F /* PBXTargetDependency */,
+			);
+			name = iFitActivityUITests;
+			productName = iFitActivityUITests;
+			productReference = ED6277BE251E77E80040872F /* iFitActivityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED627795251E77E60040872F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					ED62779C251E77E60040872F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					ED6277B2251E77E80040872F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = ED62779C251E77E60040872F;
+					};
+					ED6277BD251E77E80040872F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = ED62779C251E77E60040872F;
+					};
+				};
+			};
+			buildConfigurationList = ED627798251E77E60040872F /* Build configuration list for PBXProject "iFitActivity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED627794251E77E60040872F;
+			productRefGroup = ED62779E251E77E60040872F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED62779C251E77E60040872F /* iFitActivity */,
+				ED6277B2251E77E80040872F /* iFitActivityTests */,
+				ED6277BD251E77E80040872F /* iFitActivityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED62779B251E77E60040872F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6277AD251E77E80040872F /* LaunchScreen.storyboard in Resources */,
+				ED6277AA251E77E80040872F /* Assets.xcassets in Resources */,
+				ED6277A8251E77E60040872F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6277B1251E77E80040872F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6277BC251E77E80040872F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032A182DF40BA4E2ECFEE283 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iFitActivity/Pods-iFitActivity-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iFitActivity/Pods-iFitActivity-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iFitActivity/Pods-iFitActivity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AA7AA415FECF1DD740C1A43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iFitActivity-iFitActivityUITests/Pods-iFitActivity-iFitActivityUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iFitActivity-iFitActivityUITests/Pods-iFitActivity-iFitActivityUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iFitActivity-iFitActivityUITests/Pods-iFitActivity-iFitActivityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35202BBB867106EE8869F7D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFitActivity-iFitActivityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C4BD9CAE85E9328B7971F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFitActivityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C895F66E68B65D058D914E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iFitActivity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED627799251E77E60040872F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6277A5251E77E60040872F /* ViewController.swift in Sources */,
+				ED6277A1251E77E60040872F /* AppDelegate.swift in Sources */,
+				ED6277A3251E77E60040872F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6277AF251E77E80040872F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6277B8251E77E80040872F /* iFitActivityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6277BA251E77E80040872F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6277C3251E77E80040872F /* iFitActivityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6277B5251E77E80040872F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED62779C251E77E60040872F /* iFitActivity */;
+			targetProxy = ED6277B4251E77E80040872F /* PBXContainerItemProxy */;
+		};
+		ED6277C0251E77E80040872F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED62779C251E77E60040872F /* iFitActivity */;
+			targetProxy = ED6277BF251E77E80040872F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED6277A6251E77E60040872F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6277A7251E77E60040872F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6277AB251E77E80040872F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6277AC251E77E80040872F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6277C5251E77E80040872F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6277C6251E77E80040872F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6277C8251E77E80040872F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B53C6F6C81CD6C5B57ACDA2 /* Pods-iFitActivity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45M3BDQ7XB;
+				INFOPLIST_FILE = iFitActivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devclub.iFitActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6277C9251E77E80040872F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3389192C2033556A7A658E4 /* Pods-iFitActivity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45M3BDQ7XB;
+				INFOPLIST_FILE = iFitActivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devclub.iFitActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED6277CB251E77E80040872F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1CECFBBFC84745DDA7BE8B /* Pods-iFitActivityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45M3BDQ7XB;
+				INFOPLIST_FILE = iFitActivityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devclub.iFitActivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFitActivity.app/iFitActivity";
+			};
+			name = Debug;
+		};
+		ED6277CC251E77E80040872F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065CBB86DA08961F064E4D18 /* Pods-iFitActivityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45M3BDQ7XB;
+				INFOPLIST_FILE = iFitActivityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devclub.iFitActivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFitActivity.app/iFitActivity";
+			};
+			name = Release;
+		};
+		ED6277CE251E77E80040872F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5FD590B2B7497DE33E510A /* Pods-iFitActivity-iFitActivityUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45M3BDQ7XB;
+				INFOPLIST_FILE = iFitActivityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devclub.iFitActivityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iFitActivity;
+			};
+			name = Debug;
+		};
+		ED6277CF251E77E80040872F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DFB748018AAF57DCBE9902 /* Pods-iFitActivity-iFitActivityUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45M3BDQ7XB;
+				INFOPLIST_FILE = iFitActivityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devclub.iFitActivityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iFitActivity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED627798251E77E60040872F /* Build configuration list for PBXProject "iFitActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6277C5251E77E80040872F /* Debug */,
+				ED6277C6251E77E80040872F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6277C7251E77E80040872F /* Build configuration list for PBXNativeTarget "iFitActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6277C8251E77E80040872F /* Debug */,
+				ED6277C9251E77E80040872F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6277CA251E77E80040872F /* Build configuration list for PBXNativeTarget "iFitActivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6277CB251E77E80040872F /* Debug */,
+				ED6277CC251E77E80040872F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6277CD251E77E80040872F /* Build configuration list for PBXNativeTarget "iFitActivityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6277CE251E77E80040872F /* Debug */,
+				ED6277CF251E77E80040872F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED627795251E77E60040872F /* Project object */;
+}
